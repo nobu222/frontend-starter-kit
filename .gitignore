@@ -32,3 +32,8 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+key/*.json
+*-debug.log
+.runtimeconfig.json
+store_local
