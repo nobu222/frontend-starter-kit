@@ -109,6 +109,23 @@ module.exports = {
                 "singleReturnOnly": false,
                 "classPropertiesAllowed": false
             }
+        ],
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        'import/no-extraneous-dependencies': [
+            'error',
+            {
+                devDependencies: [
+                    '.storybook/**',
+                    'stories/**',
+                    '**/*/*.story.*',
+                    '**/*/*.stories.*',
+                    '**/__specs__/**',
+                    '**/*/*.spec.*',
+                    '**/__tests__/**',
+                    '**/*/*.test.*',
+                    'setupTests.*',
+                ],
+            },
         ]
     },
     overrides: [
