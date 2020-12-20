@@ -4,3 +4,4 @@ node_modules
 **/*.min.js
 *.config.js
 *rc.js
+cypress
