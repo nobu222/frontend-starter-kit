@@ -1,3 +1,4 @@
+// For ignore files from .eslintignore
 const { ESLint } = require("eslint");
 const filterAsync = require("node-filter-async").default;
 
